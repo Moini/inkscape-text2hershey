@@ -30,7 +30,7 @@ import simplestyle
 try:
   import hersheydata          #data file w/ Hershey font data
 except:
-  inkex.errormsg("ERROR: hersheydata.py not found. Is the "Hershey-Text" extension missing?")
+  inkex.errormsg("ERROR: hersheydata.py not found. Is the 'Hershey-Text' extension missing?")
   sys.exit(1)
 
 
